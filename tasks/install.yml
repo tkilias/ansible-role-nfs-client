@@ -3,4 +3,4 @@
 - name: Install packages
   yum:
     name: "{{ item }}"
-  with_items: nfs_client_packages
+  with_items: "{{ nfs_client_packages }}"

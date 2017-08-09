@@ -1,4 +1,6 @@
 ---
+- debug:
+    msg: "{{ nfs_client_mountpoints }}"
 
 - include: install.yml
   tags: ['install']
